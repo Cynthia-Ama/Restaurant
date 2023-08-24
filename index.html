@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Restaurant Website</title>
+  </head>
+  <body>
+    <header>
+      <!-- nav -->
+      <nav>
+        <div class="nav-center">
+          <div class="nav-button">
+            <button class="nav-btn"><i class="fa fa-bars"></i></button>
+          </div>
+          <h2 class="nav-header"><a href="/index.html">MyRestaurant</a></h2>
+          <div class="nav-links">
+            <ul>
+              <li>
+                <span><i class="fa fa-phone"></i></span
+                ><a href="#contact">Contact</a>
+              </li>
+              <li>
+                <span><i class="fa fa-book"></i></span
+                ><a href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cart-button">
+            <button class="cart-btn">
+              <i class="fa fa-shopping-cart"></i>
+              <span class="cart-amount">0</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- header image && content -->
+      <section class="header-section">
+        <div class="header-section-content">
+          <h2>Enjoy the Best Nigerian Delicacies...</h2>
+          <p>
+            Welcome to the restaurant's page. We've got everything you need.
+            From soups to rice dishes and desserts. Satisfy your cravings by
+            trying our dishes. Home away from home!
+          </p>
+          <button><a href="/products.html">Shop now</a></button>
+        </div>
+        <div class="header-section-image">
+          <img src="./images/header-image.jpeg" alt="header" />
+        </div>
+      </section>
+    </header>
+    <!-- sidebar -->
+    <div class="sidebar-overlay" id="sidebar">
+      <div class="sidebar">
+        <button class="close-btn"><i class="fa fa-times"></i></button>
+        <div>
+          <ul>
+            <li>
+              <span><i class="fa fa-phone"></i></span
+              ><a href="#contact" class="sidebar-contact">Contact</a>
+            </li>
+            <li>
+              <span><i class="fa fa-book"></i></span
+              ><a href="#about" class="sidebar-about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- cart -->
+    <div class="cart">
+      <button class="close-cart-btn"><i class="fa fa-times"></i></button>
+      <h3 class="cart-heading">Your bag</h3>
+      <div class="cart-content"></div>
+      <footer class="cart-totals">
+        <p>Total: $<span class="cart-total">0</span></p>
+        <button class="checkout-btn">Checkout</button>
+      </footer>
+    </div>
+    <!-- products -->
+    <section class="products">
+      <h2 class="products-heading">Our Menu</h2>
+      <p class="products-paragraph">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+        ipsa aperiam odio! Possimus ducimus consequatur neque. Dicta quis
+        reiciendis molestias!
+      </p>
+      <div class="products-container"></div>
+    </section>
+    <!-- chefs -->
+    <section class="chefs">
+      <h2>Our Chefs</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ad non
+        provident. Minima reiciendis, tempore ducimus facere aperiam rem fugit.
+      </p>
+      <div class="chefs-container">
+        <div class="chef">
+          <img src="./images/people/owner.webp" alt="chef" />
+          <div>
+            <h3>Ms Oyin Damola</h3>
+            <p>Owner / Chef</p>
+          </div>
+        </div>
+        <div class="chef">
+          <img src="./images/people/head-chef.jpeg" alt="chef" />
+          <div>
+            <h3>Mr Manuel Rodriguez</h3>
+            <p>Head Chef</p>
+          </div>
+        </div>
+        <div class="chef">
+          <img src="./images/people/Pastry-Chef.webp" alt="chef" />
+          <div>
+            <h3>Ms Sarah Hopkins</h3>
+            <p>Pastry Chef</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas
+        natus aliquam voluptatum. Accusantium sed dolorum nesciunt recusandae
+        tenetur accusamus.
+      </p>
+      <div class="gallery-container">
+        <div id="gallery1">
+          <img src="./images/gallery/afang-soup.jpeg" alt="afang soup" />
+        </div>
+        <div id="gallery2">
+          <img src="./images/gallery/beans-porridge.jpeg" alt="beans" />
+        </div>
+        <div id="gallery3">
+          <img src="./images/gallery/beans.jpeg" alt="beans" />
+        </div>
+        <div id="gallery4">
+          <img src="./images/gallery/fried-rice.jpeg" alt="fried rice" />
+        </div>
+        <div id="gallery5">
+          <img src="./images/gallery/rice-and-stew.png" alt="rice and stew" />
+        </div>
+        <div id="gallery6">
+          <img
+            src="./images/gallery/peppersoup-pottage.jpeg"
+            alt="peppersoup"
+          />
+        </div>
+        <div id="gallery7">
+          <img src="./images/gallery/pottage-yam.jpeg" alt="yam" />
+        </div>
+        <div id="gallery8">
+          <img src="./images/gallery/pepper-soup.jpeg" alt="peppersoup" />
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about" id="about">
+      <h2 class="about-heading">About Us</h2>
+      <div class="about-container">
+        <div class="about-image">
+          <img src="./images/people/owner.webp" alt="owner" />
+        </div>
+        <div class="about-content">
+          <h2>Our Story</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            beatae. Eligendi, cum. Suscipit non tempore ad qui vitae quaerat
+            distinctio doloremque maxime id, molestias inventore itaque ipsam
+            sequi? Exercitationem sequi quas numquam. Culpa dolores aliquam iure
+            temporibus at porro quos possimus molestiae amet, ut saepe delectus
+            optio fuga dignissimos consectetur, pariatur voluptate beatae ab
+            veritatis laborum asperiores quisquam hic. Minima?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="contact-details">
+        <h2>Contact Us</h2>
+        <div class="address">
+          <h3>Address</h3>
+          <p>123 Keystone Way, London, United Kingdom</p>
+        </div>
+        <div class="phone">
+          <h3>Phone:</h3>
+          <p>+ 44 (0) 12345679890</p>
+        </div>
+        <div class="email">
+          <h3>Email:</h3>
+          <p>abcdef@gmail.com</p>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>Would you like to give us some feedback?</h2>
+        <p>Please use the contact form below.</p>
+        <form>
+          <div class="form-group">
+            <label for="">Enter your name:</label>
+            <input type="text" />
+          </div>
+          <div class="form-group">
+            <label for="">Your phone number:</label>
+            <input type="text" />
+          </div>
+          <div class="form-group">
+            <label for="">Enter message:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="formBtn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer-links">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p>&copy; 2023 MyRestaurant</p>
+      </div>
+    </footer>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
